@@ -1,6 +1,6 @@
 # Tic Tac Toe!
 
-[Sc](https://user-images.githubusercontent.com/15694665/213875319-99289ee8-11ea-48b5-852e-fcbf5bf08fd4.png)
+![Sc](https://user-images.githubusercontent.com/15694665/213875319-99289ee8-11ea-48b5-852e-fcbf5bf08fd4.png)
 
 This is a simple Tic Tac Toe game written in JavaScript/HTML/CSS.
 
