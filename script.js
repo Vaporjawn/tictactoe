@@ -16,6 +16,7 @@ const cells = document.querySelectorAll('.cell');
 beginGame();
 
 function beginGame() {
+	document.querySelector(".replayButton").style.display = "none";
 	document.querySelector(".endgame").style.display = "none";
 	originalBoard = Array.from(Array(9).keys());
 	for (var i = 0; i < cells.length; i++) {
@@ -66,6 +67,7 @@ function gameOver(gameWon) {
 function declareWinner(who) {
 	document.querySelector(".endgame").style.display = "block";
 	document.querySelector(".endgame .text").innerText = who;
+	showReplayButton();
 }
 
 function emptySquares() {
@@ -86,4 +88,8 @@ function checkTie() {
 		return true;
 	}
 	return false;
+}
+
+function showReplayButton() {
+	document.querySelector(".replayButton").style.display = "block";
 }
